@@ -1,0 +1,11 @@
+Final Project
+---------------------
+There's not much for me to talk about here, the Milestones were very straight forward, but 
+Milestone 3 gave me a lot of trouble, I was not able to get the expected output as my Orders 
+would fill incorrectly. The Line Manager iterated through them 36 times, everything was ok 
+until iteration number 7 when it fills three orders instead of the expected 1. I could not 
+find the source of this bug, i tried remaking the whole LineManager Module, I tried using 
+the debugger, no luck.
+P.S. I was able to get everything to work, turns out I was missing a return statement in my fillItem 
+function, so when filling an order it would get stuck in my fillItem loop and fill all the items 
+which created duplicated "Item filled" outputs. 
